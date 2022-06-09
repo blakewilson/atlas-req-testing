@@ -1,12 +1,10 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import { GetServerSidePropsContext } from "next";
 
 export default function Home() {
   return <div>Testing</div>;
 }
 
-export async function getServerSideProps(ctx) {
+export async function getServerSideProps(ctx: GetServerSidePropsContext) {
   console.log("getServerSideProps req url: ", ctx.req.url);
 
   return {
