@@ -9,7 +9,7 @@
     "wpe-build": "next build"
   },
   "dependencies": {
-    "next": "12.1.6",
+    "next": "^12.1.7-canary.35",
     "react": "18.1.0",
     "react-dom": "18.1.0"
   },
